@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Best-Five</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Inter:wght@500&family=Lato:wght@400;700&family=Lobster&family=Mochiy+Pop+One&family=Montserrat&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- header start here -->
+    <header class="bg-black h-75 position-relative">
+      <div class="row">
+        <div class="col-md-3 pt-5">
+          <img
+          src="img/Group 12.png"
+          class="absolute ball mb-0"
+          
+          alt=""
+          />
+        </div>
+        <div class="col-md-6 heading-text mt-5 pt-5">
+          <h1 class="mt-5 ms-md-3" style="color: #ff5e19">Choss Top Five Players</h1>
+          <img class="socar d-none d-lg-block" src="" alt="" />
+          <p class="mt-1 text-center text-white font-weight-light ms-md-5">
+            Which players are top scorers in Europe at the moment and how do
+            they score? Who is the best player this season? Check their ranking
+            for different positions on the pitch, get a detailed analysis and
+            compare your favorite players.
+          </p>
+        </div>
+        <div class="col-md-3">
+          <img class="" src="" alt="" />
+          <div class="d-flex">
+            <img
+               src="img/soccer-goal-top-png-8 4.png"
+              class="position-absolute ball"
+              style="width: 120px; height: 160px"
+              alt=""
+            />
+            <img src="img/Card-psg.png" class="ms-auto position-relative" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end here -->
+
+
+    <!-- main start here -->
+    <main class="main mb-5 pb-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-10 col-11 mx-auto">
+          <div class="row mt-5 gx-3">
+
+            <!--left side div start-->
+            <div id="main_cart" class="col-md-12 col-lg-9 col-11 mx-auto mb-lg-0 mb-5">
+
+              <div class="container mt-2">
+                <!-- card group -->
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                  <!-- single card -->
+
+                  <div class="col">
+                    <div class="card border border-0 rounded-0 bg-black">
+                      <img src="img/messi.png" class="card-img-top rounded-0" alt="..." />
+                      <div class="card-body">
+                        <h3 class="text-center text-white font-weight-bolder">Lionel Messi</h3>
+                         <p class="text-center text-white">36 Goals . 120 Assist</p>
+                         <div class="text-center">
+                            <button onclick="addToFive(this)" class="btn btn-primary rounded-0 w-100 all-btn">SELECT</button>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <!-- single card -->
+                  <div class="col">
+                    <div class="card border border-0 rounded-0 bg-black">
+                      <img src="img/neymar.png" class="card-img-top rounded-0" alt="..." />
+                      <div class="card-body">
+                        <h3 class="text-center text-white font-weight-bolder">Neymar Jr</h3>
+                         <p class="text-center text-white">36 Goals . 120 Assist</p>
+                         <div class="text-center">
+                          <button onclick="addToFive(this)" class="btn btn-primary rounded-0 w-100 all-btn">SELECT</button>
+                        </div>
+                     </div>
+                   </div>
+                 </div>
+          
+                  <!-- single card -->
+                  <div class="col">
+                    <div class="card border border-0 rounded-0 bg-black">
+                      <img src="img/mbappe.png" class="card-img-top rounded-0" alt="..." />
+                      <div class="card-body">
+                        <h3 class="text-center text-white font-weight-bolder"> Mbappé</h3>
+                         <p class="text-center text-white">36 Goals . 120 Assist</p>
+                         <div class="text-center">
+                          <button onclick="addToFive(this)" class="btn btn-primary rounded-0 w-100 all-btn">SELECT</button>
+                        </div>
+                     </div>
+                   </div>
+                 </div>>
+                </div>
+
+                <!-- card group -->
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 mt-2">
+                    <!-- single card -->
+                    <div class="col">
+                      <div class="card border border-0 rounded-0 bg-black">
+                        <img src="img/vitor.png" class="card-img-top rounded-0" alt="..." />
+                        <div class="card-body">
+                          <h3 class="text-center text-white font-weight-bolder">Vítor Machado</h3>
+                           <p class="text-center text-white">36 Goals . 120 Assist</p>
+                           <div class="text-center">
+                            <button onclick="addToFive(this)" class="btn btn-primary rounded-0 w-100 all-btn">SELECT</button>
+                           </div>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <!-- single card -->
+                    <div class="col">
+                      <div class="card border border-0 rounded-0 bg-black">
+                        <img src="img/ramos.png" class="card-img-top rounded-0" alt="..." />
+                        <div class="card-body">
+                          <h3 class="text-center text-white font-weight-bolder">Sergio Ramos</h3>
+                           <p class="text-center text-white">36 Goals . 120 Assist</p>
+                           <div class="text-center">
+                            <button onclick="addToFive(this)" class="btn btn-primary rounded-0 w-100 all-btn">SELECT</button>
+                           </div>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <!-- single card -->
+                    <div class="col">
+                      <div class="card border border-0 rounded-0 bg-black">
+                        <img src="img/renato.png" class="card-img-top rounded-0" alt="..." />
+                        <div class="card-body">
+                          <h3 class="text-center text-white font-weight-bolder">Renato Sanches</h3>
+                           <p class="text-center text-white">36 Goals . 120 Assist</p>
+                           <div class="text-center">
+                            <button onclick="addToFive(this)" class="btn btn-primary rounded-0 w-100 all-btn">SELECT</button>
+                           </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+                  </div>
+              </div>
+
+            </div>
+            <!--left side div end-->
+
+
+            <!--right side div start-->
+            <div class="col-md-12 col-lg-3 col-11 mx-auto mt-lg-0 mt-md-5">
+
+            <!-- selected part -->
+              <div class="right_side mt-2 pt-3 px-4 py-4 bg-black">
+                <h4 class="product_name mt-2 text-center text-white">Selected - V</h4>
+                <div class="text-center line-img">
+                    <img src="img/line.png" class="" alt="">
+                </div>
+                <ol id="player-list" class="text-white text-center text-lg-start">
+                    <!--  -->
+                </ol>
+              </div>
+
+              <!-- budget part -->
+              <div class="discount_code mt-3">
+                <div class="card px-3 py-2 text-white bg-black rounded-0">
+                    <h4 class="text-center">Budget</h4>
+                    <div class="text-center line-img">
+                        <img src="img/line.png" class="" alt="">
+                    </div>
+
+                    <!-- per player -->
+                    <div class="mt-3">
+                        <div class="d-flex align-items-center">
+                          <label class="text-opacity-50 text-white">Per Player</label>
+                          <input id="player-input" type="number" class="text-white mx-3 w-50 rounded-0 all-input bg-black border-1 border-white">
+                        </div>
+                        <div class="text-center mt-3">
+                            <button id="player-btn" class="btn btn-primary rounded-0 w-100 all-btn fw-semibold">Calculate</button>
+                        </div>
+                        <p class="text-opacity-50 text-white mt-4">Player Expenses<span class="text-opacity-100 text-white ms-3 fw-semibold">$<span id="player-element">00</span></span></p>
+                    </div>
+
+                    <!-- total cost -->
+                    <div class="mt-3">
+                        <div class="d-flex align-items-center">
+                          <div class="d-flex flex-column">
+                            <div class="mt-2">
+                                <label class="text-opacity-50 text-white">Manager</label>
+                                <input id="manager-input" type="number" class="text-white ms-2 w-50 rounded-0 all-input bg-black border-1 border-white">
+                              </div>
+                              <div class="mt-4">
+                                <label class="text-opacity-50 text-white">Coach</label>
+                                <input id="coach-input" type="number" class="text-white ms-4 w-50 rounded-0 all-input bg-black border-1 border-white">
+                              </div>
+                          </div>
+                        </div>
+                        <div class="text-center mt-3">
+                            <button id="total-btn" class="btn btn-primary rounded-0 w-100 mt-2 all-btn fw-semibold">Calculate Total</button>
+                        </div>
+                        <p class="text-opacity-50 text-white mt-4 fs-5 fw-semibold">Total : <span class="text-opacity-100 ms-3" style="color: #ff5e19">$<span id="total-amount">00</span></span></p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- right side dev end -->
+
+
+          </div>
+        </div>
+      </div>
+     </div>
+    </main>
+    <!-- main end here -->
+
+
+
+    <!-- footer start here -->
+        <footer class="mt-5 pt-5">
+            <hr class="text-center w-100 border border-1 border-white">
+            <p class="text-white text-center mt-2 mb-5">Copyright @ 2022 All Rights Reserved.</p>
+        </footer>
+    <!-- footer end here -->
+
+
+    
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+
+    <!-- main js -->
+    <script src="utlity.js"></script>
+    <script src="budget.js"></script>
+    <script src="playerlist.js"></script>
+  </body>
+</html>
